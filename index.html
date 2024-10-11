@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Navidad con Papá Noel">
+    <meta name="description" content="Sigue el viaje de Papá Noel y descubre su mágico mundo. Explora galerías, lee cartas enviadas por niños de todo el mundo, y envía tu propia carta a Papá Noel en esta experiencia interactiva. ¡Únete a la aventura!">
+    <meta name="keywords" content="Papá Noel, Santa Claus, cartas a Papá Noel, enviar carta a Papá Noel, Navidad, juegos de Navidad, galería de imágenes de Papá Noel, mundo de Papá Noel, aventuras de Papá Noel, tradición navideña, regalos de Navidad, niños y Navidad, fiesta navideña, experiencia interactiva de Navidad">
+    <meta name="author" content="Carlos Bravo y Luis Gandarillas">
+    <title>Navidad con Papá Noel</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header>
+        <nav class="nav_bar">
+            <div class="title_box">
+                <h2 class="title" >Navidad con Papá Noel</h2>
+                <img class="logo" src="images/logo.png" alt="Logotipo de un gorro de Papá Noel">
+            </div>
+            <ul class="page_menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#santa">Papa Noel</a></li>
+                <li><a href="#letters">Cartas</a></li>
+                <li><a href="#send_letter">Enviar Carta</a></li>
+                <li><a href="#games">Juegos</a></li>
+            </ul>
+            <div class="login">
+                <input class="disabled" type="button" value="Iniciar Sesión">
+                <input class="disabled" type="button" value="Registrarse">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Primera página - Inicio-->
+        <section class="page main" id="home">
+            <h1>Sigue a Papá Noel</h1>
+            <h2 id="countdown">85 días 04 h 38 min 13 seg</h2>
+            <input class="disabled" type="button" value="Sigue a Papá Noel" id="main_bttn">
+        </section>
+
+        <!--Segunda página - Papá Noel-->
+        <section class="page page2" id="santa">
+            <div class="titles">
+                <h2>Papá Noel</h2>
+            </div>
+            <div class="content content2">
+                <figure class="column_p2">
+                    <img src="/ej/images/p2_noel.jpg" alt="Papá Noel">
+                </figure>
+                <div class="column_p2 santa_info">
+                    <h3>¿Quién es Papá Noel?</h3>
+                    <p>
+                        Papá Noel, también conocido como Santa Claus, es una figura navideña que trae regalos a los niños en la Nochebuena. Su origen se basa en San Nicolás, un obispo del siglo IV famoso por su generosidad.
+                        La imagen moderna de Papá Noel como un hombre con barba blanca y traje rojo se popularizó en el siglo XIX y fue impulsada por la publicidad. Vive en el Polo Norte, fabrica juguetes con sus duendes y viaja en un trineo tirado por renos, entregando regalos a los niños que se han portado bien.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Tercera página - Cartas-->
+        <section class="page page3" id="letters">
+            <div class="titles">
+                <h2>Las Cartas</h2>
+            </div>
+            <div class="content content3">
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño1.jpg" alt="Retrato de Juan Rodriguez, autor español de la carta a Papá Noel">
+                    <h2 class="card_title">Juan Rodriguez</h2>
+                    <h3 class="card_subtitle">Toledo, España</h3>
+                    <p class="card_content">
+                        Querido Papá Noel, este año he sido muy bueno y me gustaría pedirte un coche teledirigido y un balón de fútbol. Prometo compartirlo con mis amigos y seguir siendo obediente. ¡Gracias y felices fiestas!
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño2.jpg" alt="Retrato de Olavi Hämäläinen, autor lituano de la carta a Papá Noel">
+                    <h2 class="card_title">Olavi Hämäläinen</h2>
+                    <h3 class="card_subtitle">Vilna, Lituania</h3>
+                    <p class="card_content">
+                        Kallis Jõuluvana, sel aastal olen ma olnud hea poiss ja sooviksin väga uut legokomplekti ja kelku. Loodan, et toote mulle kingituse ja luban olla ikka tubli! Häid pühi!
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño3.jpg" alt="Retrato de Catalina Gonzalez, autora argentina de la carta a Papá Noel.">
+                    <h2 class="card_title">Catalina Gonzalez</h2>
+                    <h3 class="card_subtitle">Buenos Aires, Argentina</h3>
+                    <p class="card_content">
+                        Querido Papá Noel, este año me he portado muy bien. Para Navidad me gustaría recibir una bicicleta y un set de bloques de construcción. Prometo portarme bien y ayudar a mis padres. ¡Gracias!
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño4.jpg" alt="Retrato de Emma Schneider, autora alemana de la carta a Papá Noel.">
+                    <h2 class="card_title">Emma Schneider</h2>
+                    <h3 class="card_subtitle">Berlín, Alemania</h3>
+                    <p class="card_content">
+                        Lieber Weihnachtsmann, dieses Jahr war ich sehr brav. Ich wünsche mir ein Kuscheltier und ein schönes Märchenbuch. Ich werde weiterhin lieb sein und meiner Mama im Haushalt helfen. Frohe Weihnachten!
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño5.jpg" alt="Retrato de Mohamed Alaoui, autor marroquí de la carta a Papá Noel.">
+                    <h2 class="card_title">Mohamed Alaoui</h2>
+                    <h3 class="card_subtitle">Rabat, Marruecos</h3>
+                    <p class="card_content">
+                        عزيزي بابا نويل، هذا العام كنت طفلاً جيدًا وأود أن أحصل على دراجة جديدة وكرة قدم. أعد بأن أستمر في التصرف بشكل جيد ومساعدة والديّ. شكرًا لك وعيد ميلاد مجيد!
+                    </p>
+                </div>
+                <div class="card">
+                    <img class="card_img" src="/ej/images/niño6.jpg" alt="Retrato de Haruto Yamamoto, autor japonés de la carta a Papá Noel.">
+                    <h2 class="card_title">Haruto Yamamoto</h2>
+                    <h3 class="card_subtitle">Hong Kong, Japón</h3>
+                    <p class="card_content">
+                        サンタさんへ、今年はいい子にしていました。クリスマスには新しいロボットとマンガの本が欲しいです。これからも勉強を頑張ります。どうぞよろしくお願いします！
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Cuarta página - Enviar Carta-->
+        <section class="page page4" id="send_letter">
+            <div class="titles">
+                <h2>Envía Tu Carta</h2>
+            </div>
+            <div class="content content4">
+                <form class="letter_form">
+                    <div class="grid_form">
+                        <div class="form_field">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="form_field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Ingresa tu email">
+                        </div>
+                        <div class="form_field">
+                            <label for="country">País</label>
+                            <input type="text" id="country" name="country" placeholder="Ingresa tu país">
+                        </div>
+                        <div class="form_field">
+                            <label for="city">Ciudad</label>
+                            <input type="text" id="city" name="city" placeholder="Ingresa tu ciudad">
+                        </div>
+                        <div class="form_field form_message">
+                            <label for="letter">Carta para Papá Noel</label>
+                            <textarea id="letter" name="letter" placeholder="Escribe tu carta" rows="4"></textarea>
+                        </div>
+                        <input class="send" type="submit" onclick="return false" value="ENVIAR CARTA AL POLO NORTE">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--Quinta página - Juegos-->
+        <section class="page page5" id="games">
+            <div class="titles">
+                <h2>¡Juega!</h2>
+            </div>
+            <div class="content content5">
+                <div class="column_p5 column1_p5">
+                    <h3>¡Juega con los elfos y gana premios!</h3>
+                    <ul>
+                        <li><button onclick="document.getElementById('game_image').src='/ej/images/game1_santa_race.png'" aria-label="Juego 1: Carrera de Santa">Juego 1</button></li>
+                        <li><button onclick="document.getElementById('game_image').src='/ej/images/game2_snowman.png'" aria-label="Juego 2: Construye un muñeco de nieve">Juego 2</button></li>
+                        <li><button onclick="document.getElementById('game_image').src='/ej/images/game3_village.png'" aria-label="Juego 3: El pueblo navideño">Juego 3</button></li>
+                    </ul>
+                </div>
+                <figure class="column_p5 column2_p5">
+                    <img id="game_image" src="images/game_start.jpg" alt="Juegos Navideños">
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="social_media">
+            <a href="https://www.instagram.com/" target="_blank"> <img class="footer_icon" src="/ej/images/ig_icon.jpg" alt="Logo de Navidad con Papá Noel"></a>
+            <a href="https://www.x.com/" target="_blank"> <img class="footer_icon" src="/ej/images/tw_icon.jpg" alt="Logo de Navidad con Papá Noel"></a>
+            <a href="https://www.facebook.com/" target="_blank"> <img class="footer_icon" src="/ej/images/fb_icon.jpg" alt="Logo de Navidad con Papá Noel"></a>
+        </div>
+        <address class="links">
+            <p>Desarrollado por Carlos Bravo y Luis Gandarillas</p>
+            <p>
+                Contact us:
+                <a href="https://github.com/carlosbravogarran" target="_blank">@carlosbravogarran</a> |
+                <a href="https://github.com/lgandarillas" target="_blank">@lgandarillas</a>
+            </p>
+            <a href="/docs/LICENSE.md" target="_blank">Política de Privacidad</a>
+        </address>
+    </footer>
+</body>
+</html>
