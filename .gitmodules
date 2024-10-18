@@ -1,0 +1,3 @@
+[submodule "innomakers24"]
+	path = innomakers24
+	url = git@github.com:lgandarillas/innomakers24.git
